@@ -21,15 +21,33 @@ export function Hero() {
             systems and integrations for banking and fintech platforms
             across Singapore and Myanmar &mdash; from Spring Boot
             microservices and API integrations to the Vue and React
-            interfaces people actually use.
-
-            Working with me, you&apos;ll get a pragmatic engineer who can take
-            a problem from concept to production, and who will always
-            prioritize reliability, maintainability, and clarity.
-
-            
+            interfaces people actually use. Working with me, you&apos;ll get
+            a pragmatic engineer who can take a problem from concept to
+            production, and who will always prioritize reliability,
+            maintainability, and clarity.
           </p>
         </Reveal>
+        <Reveal delay={200}>
+          <p className="mt-4 max-w-xl leading-relaxed text-muted-foreground">
+            Through{' '}
+            <a
+              href="https://vibecode.tours/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-primary underline-offset-4 hover:underline"
+            >
+              Vibecode Tours
+            </a>
+            , I&apos;ve been exploring AI-assisted, &ldquo;vibe coding&rdquo;
+            workflows &mdash; using Claude Code and GitHub Copilot with the
+            Model Context Protocol (MCP), custom commands, agent workflows,
+            and tailored skills to move faster from intent to
+            production-ready code.
+
+
+          </p>
+        </Reveal>
+
         <Reveal delay={240}>
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <a

@@ -37,6 +37,17 @@ const SKILL_GROUPS = [
       'Jenkins',
     ],
   },
+  {
+    label: 'AI & Agentic Engineering',
+    items: [
+      'Claude Code',
+      'GitHub Copilot',
+      'Model Context Protocol (MCP)',
+      'AI Agents',
+      'Custom Skills & Commands',
+      'Vibe Coding',
+    ],
+  },
 ]
 
 export function Skills() {
