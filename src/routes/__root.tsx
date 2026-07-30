@@ -3,6 +3,8 @@ import { Outlet, createRootRoute } from '@tanstack/react-router'
 import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools'
 import { TanStackDevtools } from '@tanstack/react-devtools'
 
+import { ParticlesBackground } from '../components/ParticlesBackground'
+
 import '../styles.css'
 
 export const Route = createRootRoute({
@@ -29,6 +31,7 @@ function RootComponent() {
         rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=Space+Grotesk:wght@500;600;700&display=swap"
       />
+      <ParticlesBackground />
       <Outlet />
       <TanStackDevtools
         config={{
