@@ -22,6 +22,12 @@ export function Hero() {
             across Singapore and Myanmar &mdash; from Spring Boot
             microservices and API integrations to the Vue and React
             interfaces people actually use.
+
+            Working with me, you&apos;ll get a pragmatic engineer who can take
+            a problem from concept to production, and who will always
+            prioritize reliability, maintainability, and clarity.
+
+            
           </p>
         </Reveal>
         <Reveal delay={240}>
