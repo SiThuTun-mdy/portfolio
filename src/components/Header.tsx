@@ -1,3 +1,5 @@
+import { ThemeToggle } from './ThemeToggle'
+
 const NAV_LINKS = [
   { href: '#home', label: 'Home' },
   { href: '#experience', label: 'Experience' },
@@ -16,17 +18,20 @@ export function Header() {
         >
           Si Thu Tun
         </a>
-        <nav className="flex items-center gap-5">
-          {NAV_LINKS.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              className="text-sm text-muted-foreground transition-colors hover:text-primary focus-visible:text-primary focus-visible:outline-none"
-            >
-              {link.label}
-            </a>
-          ))}
-        </nav>
+        <div className="flex items-center gap-5">
+          <nav className="flex items-center gap-5">
+            {NAV_LINKS.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className="text-sm text-muted-foreground transition-colors hover:text-primary focus-visible:text-primary focus-visible:outline-none"
+              >
+                {link.label}
+              </a>
+            ))}
+          </nav>
+          <ThemeToggle />
+        </div>
       </div>
     </header>
   )
