@@ -2,6 +2,14 @@ import { Reveal } from './Reveal'
 
 const PROJECTS = [
   {
+    title: 'Dr Note — Clinic Management Platform',
+    description:
+      'A personal project giving small clinics and mid-size healthcare organizations a way to manage patient records, diagnoses, and prescriptions in one place, built end to end from database to UI.',
+    tags: ['TypeScript', 'Python', 'PostgreSQL'],
+    link: 'https://github.com/SiThuTun-mdy/Dr-Note',
+    demo: 'https://dr-note-demo.vercel.app/',
+  },
+  {
     title: 'Bloomberg Integration — Midas Core Banking',
     description:
       'Built a Bloomberg-to-Midas integration from scratch at LBBW: analyzed requirements, designed the integration API, digested the Bloomberg source and Midas sink, and shaped the database and design patterns behind it. Deployed as a cloud-native, Azure-hosted microservice.',
@@ -24,14 +32,6 @@ const PROJECTS = [
     description:
       'A nationwide FinTech platform at True Money Myanmar handling payment gateway processing, foreign money transfer, and merchant/utility bill collection, designed with Clean Architecture and Domain-Driven Design from the ground up.',
     tags: ['Clean Architecture', 'DDD', 'Java'],
-  },
-  {
-    title: 'Dr Note — Clinic Management Platform',
-    description:
-      'A personal project giving small clinics and mid-size healthcare organizations a way to manage patient records, diagnoses, and prescriptions in one place, built end to end from database to UI.',
-    tags: ['TypeScript', 'Python', 'PostgreSQL'],
-    link: 'https://github.com/SiThuTun-mdy/Dr-Note',
-    demo: 'https://dr-note-demo.vercel.app/',
   },
 ]
 
