@@ -2,10 +2,10 @@ import { Reveal } from './Reveal'
 
 const PROJECTS = [
   {
-    title: 'Dr Note — Clinic Management Platform',
+    title: 'Dr Note — Electronic Health Record System',
     description:
       'A personal project giving small clinics and mid-size healthcare organizations a way to manage patient records, diagnoses, and prescriptions in one place, built end to end from database to UI.',
-    tags: ['TypeScript', 'Python', 'PostgreSQL'],
+    tags: ['TypeScript', 'Nextjs', 'vercel', 'supabase', 'Python', 'PostgreSQL'],
     link: 'https://github.com/SiThuTun-mdy/Dr-Note',
     demo: 'https://dr-note-demo.vercel.app/',
   },
@@ -13,7 +13,7 @@ const PROJECTS = [
     title: 'Bloomberg Integration — Midas Core Banking',
     description:
       'Built a Bloomberg-to-Midas integration from scratch at LBBW: analyzed requirements, designed the integration API, digested the Bloomberg source and Midas sink, and shaped the database and design patterns behind it. Deployed as a cloud-native, Azure-hosted microservice.',
-    tags: ['Spring Boot', 'REST API', 'Azure', 'Microservices'],
+    tags: ['Spring Boot', 'REST API', 'Azure', 'Microservices','Bloomberg API', 'Midas Core Banking'],
   },
   {
     title: 'TradeWeb — Singapore TradeNet Gateway',
@@ -25,13 +25,13 @@ const PROJECTS = [
     title: 'NUP Reporting Engine — Q-System',
     description:
       'A Vue-based reporting engine built for the National University Polyclinics project at ATT Systems, generating statistical reports for hospitals, clinics, and finance teams, backed by a database tuned for significantly faster response times.',
-    tags: ['Vue.js', 'API Design', 'Database Optimization'],
+    tags: ['Vue.js', 'API Design', 'Database Optimization', 'Spring Boot', 'MS SQL Server'],
   },
   {
     title: 'Payment Gateway & Bill Collection Platform',
     description:
-      'A nationwide FinTech platform at True Money Myanmar handling payment gateway processing, foreign money transfer, and merchant/utility bill collection, designed with Clean Architecture and Domain-Driven Design from the ground up.',
-    tags: ['Clean Architecture', 'DDD', 'Java'],
+      'A nationwide FinTech platform at True Money Myanmar handling payment gateway processing, foreign money transfer, and merchant/utility bill collection, designed with Clean Architecture and Domain-Driven Design.',
+    tags: ['Clean Architecture', 'DDD', 'Java', 'Spring Boot', 'PostgreSQL', 'JasperReports'],
   },
 ]
 

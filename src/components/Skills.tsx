@@ -21,7 +21,7 @@ const SKILL_GROUPS = [
   },
   {
     label: 'Data & Cloud',
-    items: ['MySQL', 'PostgreSQL', 'Oracle SQL Server', 'Azure', 'Heroku', 'Kafka'],
+    items: ['MySQL', 'PostgreSQL', 'Oracle SQL Server', 'Azure', 'Heroku', 'Vercel', 'Supabase', 'Kafka'],
   },
   {
     label: 'Practices & Tools',
