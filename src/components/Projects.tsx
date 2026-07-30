@@ -25,6 +25,14 @@ const PROJECTS = [
       'A nationwide FinTech platform at True Money Myanmar handling payment gateway processing, foreign money transfer, and merchant/utility bill collection, designed with Clean Architecture and Domain-Driven Design from the ground up.',
     tags: ['Clean Architecture', 'DDD', 'Java'],
   },
+  {
+    title: 'Dr Note — Clinic Management Platform',
+    description:
+      'A personal project giving small clinics and mid-size healthcare organizations a way to manage patient records, diagnoses, and prescriptions in one place, built end to end from database to UI.',
+    tags: ['TypeScript', 'Python', 'PostgreSQL'],
+    link: 'https://github.com/SiThuTun-mdy/Dr-Note',
+    demo: 'https://dr-note-demo.vercel.app/',
+  },
 ]
 
 export function Projects() {
@@ -56,6 +64,30 @@ export function Projects() {
                     </li>
                   ))}
                 </ul>
+                {(project.link || project.demo) && (
+                  <div className="mt-4 flex gap-4 text-sm font-medium">
+                    {project.link && (
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-primary underline-offset-4 hover:underline"
+                      >
+                        Source
+                      </a>
+                    )}
+                    {project.demo && (
+                      <a
+                        href={project.demo}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-primary underline-offset-4 hover:underline"
+                      >
+                        Live demo
+                      </a>
+                    )}
+                  </div>
+                )}
               </article>
             </Reveal>
           ))}
